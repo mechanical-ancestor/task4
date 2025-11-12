@@ -4,6 +4,13 @@
 #include <limits>
 #define MAX  1000
 using namespace std;
+void pause_clear()
+{
+    cout << "即将返回目录，请按任意键继续..." << endl;
+    cin.ignore(numeric_limits<streamsize>::max() , '\n');
+    cin.get();
+    system("clear");
+}
 void menu()
 {
 	cout << "**********************" << endl;
@@ -52,8 +59,7 @@ void addbook(libriary* wzc)
 		cout << "入库成功!" << endl;
 		wzc->b_size++;
 	}
-	std::cout << "程序执行完毕，按回车键继续..." << std::endl;
-    std::cin.get(); 
+	pause_clear();
 }
 int checkbook(libriary* wzc, string name)//查找图书
 {
@@ -93,9 +99,7 @@ void borrowbook(libriary* wzc, string name)//借书
 
 		}
 	}
-	
-	std::cout << "程序执行完毕，按回车键继续..." << std::endl;
-    std::cin.get(); 
+	pause_clear();
 }
 void showbook(libriary* wzc)
 {
@@ -123,8 +127,7 @@ void backbook(libriary* wzc, string name)//还书
 	checkbook(wzc, name);
 	wzc->narry[checkbook(wzc, name)].situation = "no";
 	cout << "还书成功！";
-	std::cout << "程序执行完毕，按回车键继续..." << std::endl;
-    std::cin.get(); 
+	pause_clear();
 }
 void exhibitbook(libriary* wzc)//展示所有书名
 {
@@ -165,8 +168,7 @@ void searchbook(libriary* wzc, string name)//查询书
 	{
 		cout << "未找到该书" << endl;
 	}
-	std::cout << "程序执行完毕，按回车键继续..." << std::endl;
-    std::cin.get(); 
+	pause_clear();
 }
 int main()
 {
