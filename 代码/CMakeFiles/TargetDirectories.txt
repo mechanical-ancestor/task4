@@ -1,0 +1,3 @@
+/home/lan/桌面/考核四/代码/CMakeFiles/TASK-4.dir
+/home/lan/桌面/考核四/代码/CMakeFiles/edit_cache.dir
+/home/lan/桌面/考核四/代码/CMakeFiles/rebuild_cache.dir
