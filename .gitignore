@@ -1,0 +1,9 @@
+TASK-4
+*.o
+*.out
+CMakeFiles/
+CMakeCache.txt
+Makefile
+cmake_install.cmake
+*.jpg
+!result.png
