@@ -1,9 +1,10 @@
-TASK-4
+# 编译产物
 *.o
 *.out
 CMakeFiles/
 CMakeCache.txt
 Makefile
 cmake_install.cmake
+
+# 临时/冗余文件
 *.jpg
-!result.png

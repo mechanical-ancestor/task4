@@ -1,1 +1,0 @@
-/usr/bin/c++ "CMakeFiles/TASK-4.dir/test4.cpp.o" -o TASK-4 
