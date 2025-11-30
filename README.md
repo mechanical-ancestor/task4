@@ -15,3 +15,5 @@
 
 ### 考核内容
 ![考核](./img/1.jpg)
+![result1](/home/violet/task4/task4/result1.png)
+![result2](/home/violet/task4/task4/result2.png)
